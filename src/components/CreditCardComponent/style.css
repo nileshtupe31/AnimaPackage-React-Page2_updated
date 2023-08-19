@@ -1,0 +1,76 @@
+.overlap-5 {
+    height: 276px;
+    left: 73px;
+    position: relative;
+    top: 29px;
+    width: 361px;
+  }
+  
+.group {
+    height: 276px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 361px;
+}
+
+.overlap-group-3 {
+    background-color: #00aeef;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 216px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 357px;
+  }
+
+  .partner-logo-2 {
+    height: 13px;
+    left: 30px;
+    position: absolute;
+    top: 40px;
+    width: 74px;
+  }
+
+.div-wrapper {
+    height: 323px;
+    left: 815px;
+    position: absolute;
+    top: 387px;
+    width: 500px;
+  }
+  
+  .base-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .shine {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 160px;
+    height: 160px;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    transform: rotate(45deg);
+    opacity: 0.6;
+    pointer-events: none;
+    animation: shineAnimation 2s infinite;
+  }
+  
+  @keyframes shineAnimation {
+    0% {
+      transform: rotate(45deg) translateX(-100%);
+    }
+    100% {
+      transform: rotate(45deg) translateX(100%);
+    }
+  }

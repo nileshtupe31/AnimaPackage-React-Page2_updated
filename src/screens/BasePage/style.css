@@ -1,0 +1,731 @@
+.base-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.base-page .overlap-wrapper {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 1018px;
+  overflow: hidden;
+  width: auto;
+}
+
+.base-page .overlap {
+  height: 1018px;
+  position: relative;
+  width: 1442px;
+}
+
+.base-page .rectangle {
+  background-color: #fdfdfd;
+  height: 99px;
+  left: 377px;
+  position: absolute;
+  top: 107px;
+  width: 658px;
+}
+
+.base-page .skeleton {
+  /* background: linear-gradient(
+    180deg,
+    rgb(0, 57, 93) 0%,
+    rgba(216.71, 235.78, 246.5, 0.54) 5.13%,
+    rgba(218.44, 223.92, 227, 0.37) 9.71%,
+    rgba(217.93, 221.43, 223.4, 0.23) 22.55%,
+    rgba(217.65, 220.1, 221.49, 0.16) 27.12%,
+    rgba(217.42, 219.02, 219.92, 0.11) 34.64%,
+    rgba(255, 255, 255, 0.07) 49.87%,
+    rgba(217, 217, 217, 0) 100%
+  ); */
+  height: 1018px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.base-page .steps-circle-things {
+  height: 80px;
+  left: 390px;
+  position: absolute;
+  top: 145px;
+  width: 570px;
+}
+
+.base-page .overlap-2 {
+  height: 80px;
+  position: relative;
+  width: 572px;
+}
+
+.base-page .circle {
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+.base-page .overlap-group-2 {
+  height: 80px;
+  position: relative;
+  width: 248px;
+}
+
+.base-page .line {
+  height: 6px;
+  left: 72px;
+  position: absolute;
+  top: 34px;
+  width: 176px;
+}
+
+.base-page .ellipse-2 {
+  background-color: #00aeef;
+  border-radius: 38.29px/40px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.base-page .text-wrapper {
+  color: #ffffff;
+  font-family: var(--circle-text-body-font-family);
+  font-size: var(--circle-text-body-font-size);
+  font-style: var(--circle-text-body-font-style);
+  font-weight: var(--circle-text-body-font-weight);
+  left: 12px;
+  letter-spacing: var(--circle-text-body-letter-spacing);
+  line-height: var(--circle-text-body-line-height);
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 14px;
+  width: 49px;
+}
+
+.base-page .overlap-group-wrapper {
+  height: 80px;
+  left: 244px;
+  position: absolute;
+  top: 0;
+  width: 253px;
+}
+
+.base-page .overlap-3 {
+  height: 80px;
+  position: relative;
+  width: 251px;
+}
+
+.base-page .img {
+  height: 5px;
+  left: 73px;
+  position: absolute;
+  top: 36px;
+  width: 178px;
+}
+
+.base-page .ellipse-3 {
+  background-color: #e7e7e7;
+  border: 6px solid;
+  border-color: #00aeef;
+  border-radius: 38.29px/40px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.base-page .text-wrapper-2 {
+  color: #00395d;
+  font-family: var(--circle-text-body-font-family);
+  font-size: var(--circle-text-body-font-size);
+  font-style: var(--circle-text-body-font-style);
+  font-weight: var(--circle-text-body-font-weight);
+  left: 13px;
+  letter-spacing: var(--circle-text-body-letter-spacing);
+  line-height: var(--circle-text-body-line-height);
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 49px;
+}
+
+.base-page .circle-2 {
+  height: 75px;
+  left: 490px;
+  position: absolute;
+  top: 2px;
+  width: 82px;
+}
+
+.base-page .element-wrapper {
+  background-color: #e7e7e7;
+  border: 6px solid;
+  border-color: #00aeef;
+  border-radius: 40px/37.55px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 75px;
+  position: relative;
+  width: 80px;
+}
+
+.base-page .element {
+  height: 28px;
+  left: 24px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.base-page .footer {
+  background-color: transparent;
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 946px;
+  width: 1442px;
+}
+
+.base-page .element-barclays-bank-wrapper {
+  background-color: #00395d;
+  height: 72px;
+  position: relative;
+  width: 1440px;
+}
+
+.base-page .element-barclays-bank {
+  height: 15px;
+  left: 629px;
+  position: absolute;
+  top: 30px;
+  width: 133px;
+}
+
+.base-page .nav-bar {
+  background-color: #00395d;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.base-page .logo {
+  height: 46px;
+  left: 555px;
+  object-fit: cover;
+  position: absolute;
+  top: 17px;
+  width: 266px;
+}
+
+.base-page .cardart-design {
+  background-color: #ffffff;
+  height: 594px;
+  left: 265px;
+  position: absolute;
+  top: 316px;
+  width: 556px;
+}
+
+.base-page .primary-logo-header {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  width: 176px;
+}
+
+.base-page .overlap-4 {
+  top: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50px;
+  width: 311px;
+  height: 40px;
+  background-color: #00aeef;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.base-page .image-upload {
+  height: 25px;
+  left: 272px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 25px;
+}
+
+.base-page .partner-logo {
+  height: 13px;
+  left: 114px;
+  position: absolute;
+  top: 12px;
+  width: 74px;
+}
+
+.base-page .secondary-color {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 221px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 185px;
+  white-space: nowrap;
+}
+
+.base-page .overall-branding {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 128px;
+  transform: rotate(-0.01deg);
+  white-space: nowrap;
+}
+
+.base-page .color-text {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 520;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 160px;
+  transform: rotate(-0.01deg);
+  white-space: nowrap;
+}
+
+.base-page .theme-text {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 520;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 316px;
+  transform: rotate(-0.01deg);
+  white-space: nowrap;
+}
+
+.base-page .theme-upload-text {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 341px;
+  transform: rotate(-0.01deg);
+  white-space: nowrap;
+}
+
+.base-page .primary-color-option {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 185px;
+  white-space: nowrap;
+}
+
+.base-page .primary-color-value {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 76px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 210px;
+  white-space: nowrap;
+}
+
+.base-page .span {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.base-page .text-wrapper-3 {
+  font-size: 12px;
+}
+
+.base-page .p {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 240px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 210px;
+  white-space: nowrap;
+}
+
+.base-page .solid-option {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 82px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 282px;
+}
+
+.base-page .gradient-option {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 251px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 283px;
+}
+
+.base-page .style-header {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  font-weight: 500;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 250px;
+  white-space: nowrap;
+}
+
+.base-page .primary-color {
+  background-color: #00aeef;
+  border-radius: 9.5px/9px;
+  height: 18px;
+  left: 51px;
+  position: absolute;
+  top: 210px;
+  width: 19px;
+}
+
+.base-page .primary-color-2 {
+  height: 2px;
+  left: 82px;
+  object-fit: cover;
+  position: absolute;
+  top: 230px;
+  width: 82px;
+}
+
+.base-page .secondary-color-2 {
+  background-color: #ef0072;
+  border-radius: 9.5px/9px;
+  height: 18px;
+  left: 212px;
+  position: absolute;
+  top: 210px;
+  width: 19px;
+}
+
+.base-page .secondary-color-3 {
+  height: 2px;
+  left: 240px;
+  object-fit: cover;
+  position: absolute;
+  top: 230px;
+  width: 82px;
+}
+
+.base-page .set-solid-radio {
+  left: 50px !important;
+  position: absolute !important;
+  top: 280px !important;
+  height: 18px;
+  width: 19px;
+}
+
+.base-page .set-gradient-radio {
+  left: 215px !important;
+  top: 280px;
+  position: absolute !important;
+}
+
+.base-page .plastic-option {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 83px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 450px;
+}
+
+.base-page .metal-option {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 255px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 450px;
+}
+
+
+.base-page .card-material-header {
+  color: #494949;
+  font-family: "Inter", Helvetica;
+  font-size: 17px;
+  font-weight: 520;
+  left: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 420px;
+  white-space: nowrap;
+}
+
+.base-page .set-plastic-radio {
+  left: 51px !important;
+  position: absolute !important;
+  top: 450px !important;
+}
+
+.base-page .set-metal-radio {
+  left: 219px !important;
+  position: absolute !important;
+  top: 450px !important;
+}
+
+.base-page .div-wrapper {
+  height: 323px;
+  left: 815px;
+  position: absolute;
+  top: 387px;
+  width: 500px;
+}
+
+.base-page .overlap-5 {
+  height: 276px;
+  left: 73px;
+  position: relative;
+  top: 29px;
+  width: 361px;
+}
+
+.base-page .group {
+  height: 276px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 361px;
+}
+
+.base-page .overlap-group-3 {
+  background-color: #00aeef;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 216px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 357px;
+}
+
+.base-page .logo-2 {
+  height: 18px;
+  left: 246px;
+  object-fit: cover;
+  position: absolute;
+  top: 41px;
+  width: 91px;
+}
+
+.base-page .image {
+  height: 42px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 136px;
+  width: 40px;
+}
+
+.base-page .image-2 {
+  height: 34px;
+  left: 262px;
+  object-fit: cover;
+  position: absolute;
+  top: 151px;
+  width: 51px;
+}
+
+.base-page .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 67px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 238px;
+  width: 93px;
+}
+
+.base-page .text-wrapper-5 {
+  color: #d9d9d9;
+  font-family: "Inria Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 215px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 238px;
+  width: 73px;
+}
+
+.base-page .partner-logo-2 {
+  height: 13px;
+  left: 30px;
+  position: absolute;
+  top: 40px;
+  width: 74px;
+}
+
+.base-page .text-wrapper-6 {
+  color: #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 404px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 236px;
+  white-space: nowrap;
+}
+
+.base-page .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 650px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 236px;
+  white-space: nowrap;
+}
+
+.base-page .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inria Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 901px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 232px;
+  white-space: nowrap;
+}
+
+.base-page .next-button {
+  height: 49px;
+  left: 1140px;
+  position: absolute;
+  top: 741px;
+  width: 118px;
+}
+
+.base-page .overlap-6 {
+  background-color: #00aeef;
+  border-radius: 30px;
+  height: 49px;
+  position: relative;
+  width: 116px;
+  margin-top: 100px;
+}
+
+.base-page .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+  width: 50px;
+}
+.base-page .theme-upload-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 370px;
+  left: 50px;
+  width: 311px;
+  height: 40px;
+  background-color: #00aeef;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.base-page .upload-text {
+  color: white;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
