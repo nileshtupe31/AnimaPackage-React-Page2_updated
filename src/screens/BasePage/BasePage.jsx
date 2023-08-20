@@ -15,7 +15,7 @@ export const BasePage = () => {
   const [showSecondaryPicker, setShowSecondaryPicker] = useState(false);
 
   const [logoImage, setLogoImage] = useState("img/partnerlogo.png");
-  const [cardBackgroundImage, setCardBackgroundImage] = useState("img/partnerlogo.png");
+  const [cardBackgroundImage, setCardBackgroundImage] = useState(null);
   const fileInputRef = useRef(null);
   const bgFileInputRef = useRef(null);
 
