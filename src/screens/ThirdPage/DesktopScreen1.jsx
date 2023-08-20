@@ -24,10 +24,10 @@ const DesktopScreen1 = ({onNavLinkClick}) => {
                   <div className="text-wrapper-17-ds1">Remember Username ?</div>
                 </div>
                 <div className="log-in-ds1">
-                  <div className="overlap-8-ds1">
+                <a onClick={() => {onNavLinkClick(1)}} className="overlap-8-ds1">
                     <img className="lock-ds1" alt="Lock" src="/img/lock.svg" />
-                    <div className="text-wrapper-18-ds1">Log Innnnnn</div>
-                  </div>
+                    <div className="text-wrapper-18-ds1">Log In</div>
+                  </a>
                 </div>
               </div>
             </div>
