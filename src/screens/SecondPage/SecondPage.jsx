@@ -62,13 +62,13 @@ export const SecondPage = () => {
             alt="Img"
             src="/img/da8e653794fe3dfbb87e3ba5b7183df5e5f8c822422fcfb72170788447aec4b8-1.png"
           />
-          <div className="rectangle" />
+          <div className="rectangle menu-bar" />
           <div className="overlap">
             <img className="rectangle-2" alt="Rectangle" src="/img/rectangle-32.png" />
           </div>
-          <div className="rectangle-3" />
-          <div className="rectangle-4" />
-          <div className="rectangle-5" />
+          <div className="rectangle-3 menu-bar" />
+          <div className="rectangle-4 menu-bar" />
+          <div className="rectangle-5 menu-bar" />
           <div className="overlap-2">
             <div
               style={{ background: selectedPColor }}

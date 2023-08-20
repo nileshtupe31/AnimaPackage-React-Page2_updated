@@ -15,7 +15,9 @@
   position: relative;
   width: 100%;
 }
-
+.menu-bar{
+  background-color: #000000 !important;
+}
 .second-page .footer {
   background-color: transparent;
   height: 72px;
