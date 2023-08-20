@@ -5,7 +5,8 @@ import { useLocation } from 'react-router-dom'
 import Screen3 from "./Screen3";
 import Screen1 from "./Screen1";
 import Screen2 from "./Screen2";
-
+import DesktopScreen1 from "./desktopScreen1";
+import DesktopScreen2 from "./DesktopScreen2";
 export const ThirdPage = () => {
   const location = useLocation()
   const { imageData, logoImage } = location.state
@@ -37,6 +38,14 @@ export const ThirdPage = () => {
         /> */}
         {/* <Screen1/> */}
         <Screen2/>
+        <DesktopScreen2
+          logoImage={logoImage}
+          selectedPColor={selectedPColor}
+          cardName={cardName}
+          selectedSColor={selectedSColor}
+          imageData={imageData}
+        />
+        {/* <DesktopScreen1/> */}
         <Link to="/nextpage" state={{
             imageData:imageData,
             logoImage:logoImage

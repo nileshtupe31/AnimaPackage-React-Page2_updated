@@ -2305,3 +2305,335 @@ left: 73px;
   top: 65px;
   width: 125px;
 }
+
+.third-page .desktop-login-ds1 {
+  background-color: #ffffff;
+  height: 824px;
+  left: 612px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 391px;
+  width: 721px;
+}
+
+.third-page .overlap-5-ds1 {
+  height: 751px;
+  left: -240px;
+  position: absolute;
+  top: 73px;
+  width: 1019px;
+}
+
+.third-page .overlap-6-ds1 {
+  height: 751px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.third-page .background-image-ds1 {
+  height: 595px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 690px;
+}
+
+.third-page .footer-2-ds1 {
+  height: 164px;
+  left: 240px;
+  object-fit: cover;
+  position: absolute;
+  top: 587px;
+  width: 720px;
+}
+
+.third-page .signin-form-ds1 {
+  box-shadow: 0px 4px 4px #00000040;
+  height: 430px;
+  left: 707px;
+  position: absolute;
+  top: 57px;
+  width: 312px;
+}
+
+.third-page .overlap-7-ds1 {
+  height: 430px;
+  position: relative;
+  width: 310px;
+}
+
+.third-page .box-ds1 {
+  height: 430px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 233px;
+}
+
+.third-page .text-wrapper-14-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: underline;
+  top: 288px;
+  width: 230px;
+}
+
+.third-page .text-wrapper-15-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 15px;
+  letter-spacing: 0.56px;
+  line-height: 24px;
+  position: absolute;
+  top: 16px;
+  width: 208px;
+}
+
+.third-page .password-ds1 {
+  height: 30px;
+  left: 15px;
+  position: absolute;
+  top: 120px;
+  width: 204px;
+}
+
+.third-page .overlap-group-4-ds1 {
+  background-image: url(../../../static/img/rectangle-2.svg);
+  background-size: 100% 100%;
+  height: 30px;
+  position: relative;
+  width: 202px;
+}
+
+.third-page .text-wrapper-16-ds1 {
+  color: #808080;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+  width: 160px;
+}
+
+.third-page .username-ds1 {
+  height: 30px;
+  left: 15px;
+  position: absolute;
+  top: 60px;
+  width: 202px;
+}
+
+.third-page .remember-me-ds1 {
+  height: 17px;
+  left: 13px;
+  position: absolute;
+  top: 178px;
+  width: 297px;
+}
+
+.third-page .rectangle-ds1 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #808080;
+  height: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.third-page .text-wrapper-17-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+  width: 276px;
+}
+
+.third-page .log-in-ds1 {
+  height: 34px;
+  left: 99px;
+  position: absolute;
+  top: 234px;
+  width: 119px;
+}
+
+.third-page .overlap-8-ds1 {
+  background-color: #00395d;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 34px;
+  position: relative;
+  width: 117px;
+}
+
+.third-page .lock-ds1 {
+  height: 12px;
+  left: 83px;
+  position: absolute;
+  top: 9px;
+  width: 11px;
+}
+
+.third-page .text-wrapper-18-ds1 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  left: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 49px;
+}
+
+.third-page .tab-bar-ds1 {
+  height: 73px;
+  left: -1px;
+  position: absolute;
+  top: 0;
+  width: 730px;
+}
+
+.third-page .navbar-ds1 {
+  height: 73px;
+  position: relative;
+  width: 724px;
+}
+
+.third-page .barclays-logo-ds1 {
+  height: 30px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 21px;
+  width: 140px;
+}
+
+.third-page .credit-cards-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 264px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  width: 69px;
+}
+
+.third-page .savings-cds-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 342px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  width: 77px;
+}
+
+.third-page .text-wrapper-19-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 439px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  width: 100px;
+}
+
+.third-page .text-wrapper-20-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 526px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 21px;
+  width: 69px;
+}
+
+.third-page .login-button-ds1 {
+  height: 24px;
+  left: 626px;
+  position: absolute;
+  top: 17px;
+  width: 98px;
+}
+
+.third-page .log-in-2-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 73px;
+}
+
+.third-page .span-ds1 {
+  color: #00395d;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.third-page .text-wrapper-21-ds1 {
+  font-size: 20px;
+}
+
+.third-page .login-ds1 {
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 18px;
+}
+
+.third-page .tab-bar-2-ds1 {
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-color: #00000052;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 722px;
+}
