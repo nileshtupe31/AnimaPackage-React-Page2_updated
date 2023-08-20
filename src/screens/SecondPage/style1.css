@@ -905,6 +905,26 @@
   width: 721px;
 }
 
+.second-page .overlap-20 {
+  background-color: #00aeef;
+  border-radius: 30px;
+  height: 49px;
+  width: 116px;
+  right: 122px;
+  position: absolute;
+  top: 1304px;
+}
+
+.second-page .overlap-21 {
+  background-color: #00aeef;
+  border-radius: 30px;
+  height: 49px;
+  width: 150px;
+  left: 122px;
+  position: absolute;
+  top: 1304px;
+}
+
 .second-page .overlap-7 {
   -webkit-backdrop-filter: blur(4px) brightness(100%);
   backdrop-filter: blur(4px) brightness(100%);

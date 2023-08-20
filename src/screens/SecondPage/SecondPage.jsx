@@ -1,5 +1,6 @@
 import React from "react";
-import "./style.css";
+import "./style1.css";
+import { Link } from "react-router-dom";
 
 export const SecondPage = () => {
   return (
@@ -84,18 +85,17 @@ export const SecondPage = () => {
           </div>
         </div>
         <div className="text-wrapper-8">Mobile Preview:</div>
-        <div className="prev-nextbutton">
-          <div className="next-button">
-            <div className="div-wrapper">
+        <Link to="/nextpage">
+            <div className="overlap-20">
               <div className="text-wrapper-9">Next</div>
             </div>
-          </div>
-          <div className="prev-button">
-            <div className="div-wrapper">
-              <div className="text-wrapper-10">Previous</div>
+        </Link>
+        <Link to="/">
+            <div className="overlap-21">
+              <div className="text-wrapper-9">Previous</div>
             </div>
-          </div>
-        </div>
+        </Link>
+
         <div className="website-preview">
           <div className="overlap-3">
             <div className="rectangle-14" />
