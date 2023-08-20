@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./style1.css";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'
@@ -6,6 +6,11 @@ import { useLocation } from 'react-router-dom'
 export const SecondPage = () => {
   const location = useLocation()
   const { imageData } = location.state
+  const [cardName, setCardName] = useState("Gap Rewards Mastercard");
+
+  const handleCardNameChange = (e) => {
+    setCardName(e.target.value);
+  };
 
   useEffect(() => {
     console.log(imageData);
@@ -44,7 +49,7 @@ export const SecondPage = () => {
           <div className="rectangle-5" />
           <div className="overlap-2">
             <div className="rectangle-6" />
-            <p className="text-wrapper">Gap Good Rewards Mastercard...ending in 0942</p>
+            <p className="text-wrapper">{cardName}...ending in 0942</p>
             <div className="rectangle-7" />
             <div className="rectangle-8" />
             <div className="available-credit">
@@ -166,7 +171,7 @@ export const SecondPage = () => {
             <div className="overlap-10">
               <div className="overlap-11">
                 <div className="text-wrapper-29">Good afternoon,</div>
-                <div className="gap-good-rewards">Gap good Rewards&nbsp;&nbsp;..0412</div>
+                <div className="gap-good-rewards">{cardName}&nbsp;&nbsp;..0412</div>
               </div>
               <div className="text-wrapper-30">cookie Byte</div>
             </div>
@@ -241,11 +246,15 @@ export const SecondPage = () => {
           </p>
         </div>
         <div className="card-name-input">
-          <div className="overlap-15">
-            <div className="text-wrapper-45">Type your card name</div>
-          </div>
-          <div className="text-wrapper-46">Card Name</div>
-        </div>
+        <input
+              type="text"
+              className="overlap-15"
+              onChange={handleCardNameChange}
+              placeholder="Add your card name"
+            />
+        <div className="text-wrapper-46">Card Name</div>
+      </div>
+
         <div className="step">
           <div className="progresss-bars">
             <div className="text-wrapper-47">Step1</div>
