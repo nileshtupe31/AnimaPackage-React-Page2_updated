@@ -82,9 +82,10 @@ export const BasePage = () => {
                   <div className="text-wrapper-2">2</div>
                 </div>
               </div>
-              <div className="circle-2">
-                <div className="element-wrapper">
-                  <img className="element" alt="Element" src="/img/3.png" />
+              <div className="overlap-group-wrapper-2">
+                <div className="overlap-3">
+                  <div className="ellipse-3" />
+                  <div className="text-wrapper-2">3</div>
                 </div>
               </div>
             </div>

@@ -110,6 +110,14 @@
   width: 49px;
 }
 
+.base-page .overlap-group-wrapper-2 {
+  height: 80px;
+  left: 490px;
+  position: absolute;
+  top: 0;
+  width: 253px;
+}
+
 .base-page .overlap-group-wrapper {
   height: 80px;
   left: 244px;
