@@ -9,10 +9,7 @@ import DesktopScreen1 from "./desktopScreen1";
 import DesktopScreen2 from "./DesktopScreen2";
 export const ThirdPage = () => {
   const location = useLocation()
-  const { imageData, logoImage } = location.state
-  const [selectedPColor, setSelectedPColor] = useState('#00aeef');
-  const [cardName, setCardName] = useState("Gap Rewards Mastercard");
-  const [selectedSColor, setSelectedSColor] = useState('#d0d8de');
+  const { imageData, logoImage, selectedPColor, selectedSColor,cardName } = location.state
   const [iPhoneScreen, setIPhoneScreen] = useState(0)
   const [desktopScreen, setDesktopScreen] = useState(0)
 

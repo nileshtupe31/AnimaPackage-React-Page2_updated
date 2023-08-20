@@ -130,7 +130,10 @@ export const SecondPage = () => {
         console.log(imageData)
         <Link to="/lastpage" state={{
             imageData:imageData,
-            logoImage:logoImage
+            logoImage:logoImage,
+            selectedPColor: selectedPColor,
+            selectedSColor: selectedSColor,
+            cardName: cardName
           }}>
             <div className="overlap-20">
               <div className="text-wrapper-9">Next</div>
