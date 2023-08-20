@@ -20,9 +20,9 @@ export const CreditCard = ({ isSolid, isPlastic, logoImage, selectedColor, gradi
   })
 
   return (
-    <div ref={imageDivRef} className={`${divClassName}`}>
+    <div  className={`${divClassName}`}>
       <div className="overlap-5">
-        <div className="group">
+        <div ref={imageDivRef} className="group">
           <div
             style={backgroundImage
               ? {
@@ -38,11 +38,13 @@ export const CreditCard = ({ isSolid, isPlastic, logoImage, selectedColor, gradi
             <img className="image-2" alt="Image" src="/img/image-4.png" />
           </div>
           { !isPlastic && <div className="shine"></div>}
-          <div className="text-wrapper-4">FRONT</div>
-          <div className="text-wrapper-5">BACK</div>
+          <img className="partner-logo-2" alt="Partner logo" src={logoImage} style={{ maxWidth: '100px' }} />
         </div>
-        <img className="partner-logo-2" alt="Partner logo" src={logoImage} style={{ maxWidth: '100px' }} />
+        <div className="text-wrapper-4">FRONT</div>
+        <div className="text-wrapper-5">BACK</div>
+
       </div>
+
     </div>
   );
 };
