@@ -2278,11 +2278,11 @@ left: 73px;
 
 .third-page .logo-on-nav-s2 {
   height: 48px;
-  left: 25px;
-  object-fit: cover;
+  left: 0px;
+  object-fit: contain;
   position: absolute;
   top: 3px;
-  width: 46px;
+  width: 100px;
 }
 
 .third-page .log-out-s2 {

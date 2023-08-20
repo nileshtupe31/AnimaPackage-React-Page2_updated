@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DesktopScreen1 = () => {
+const DesktopScreen1 = ({onNavLinkClick}) => {
   return (
     <div className="desktop-login-ds1">
           <div className="overlap-5-ds1">
@@ -26,7 +26,7 @@ const DesktopScreen1 = () => {
                 <div className="log-in-ds1">
                   <div className="overlap-8-ds1">
                     <img className="lock-ds1" alt="Lock" src="/img/lock.svg" />
-                    <div className="text-wrapper-18-ds1">Log In</div>
+                    <div className="text-wrapper-18-ds1">Log Innnnnn</div>
                   </div>
                 </div>
               </div>
@@ -45,7 +45,9 @@ const DesktopScreen1 = () => {
                   <span className="text-wrapper-21-ds1">&nbsp;</span>
                   <span className="span-ds1">in</span>
                 </p>
-                <img className="login-ds1" alt="Login" src="/img/login.svg" />
+                <a onClick={() => {onNavLinkClick(1)}}>
+                  <img className="login-ds1" alt="Login" src="/img/login.svg" />
+                </a>
               </div>
               <div className="tab-bar-2-ds1" />
             </div>

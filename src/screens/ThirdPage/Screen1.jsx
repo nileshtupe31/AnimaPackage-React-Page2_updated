@@ -40,9 +40,3 @@ const Screen1 = ({onNavLinkClick}) => {
 };
 
 export default Screen1;
-
-<button style={{borderColor:'red'}} onClick={() => {
-  onNavLinkClick(1)
-}} className="next-wrapper-s1">
-  <div className="next-s1">LOG IN</div>
-</button>
