@@ -106,7 +106,7 @@
   position: absolute;
   text-align: center;
   text-shadow: 0px 4px 4px #00000040;
-  top: 14px;
+  top: 22px;
   width: 49px;
 }
 
@@ -163,7 +163,7 @@
   line-height: var(--circle-text-body-line-height);
   position: absolute;
   text-align: center;
-  top: 16px;
+  top: 20px;
   width: 49px;
 }
 
