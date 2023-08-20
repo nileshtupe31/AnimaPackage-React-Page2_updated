@@ -126,7 +126,12 @@ export const SecondPage = () => {
           </div>
         </div>
         <div className="text-wrapper-8">Mobile Preview:</div>
-        <Link to="/nextpage">
+        console.log("next");
+        console.log(imageData)
+        <Link to="/lastpage" state={{
+            imageData:imageData,
+            logoImage:logoImage
+          }}>
             <div className="overlap-20">
               <div className="text-wrapper-9">Next</div>
             </div>
