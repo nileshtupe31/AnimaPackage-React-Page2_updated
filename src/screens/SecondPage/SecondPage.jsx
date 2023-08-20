@@ -70,7 +70,9 @@ export const SecondPage = () => {
           <div className="rectangle-4" />
           <div className="rectangle-5" />
           <div className="overlap-2">
-            <div className="rectangle-6" />
+            <div
+              style={{ background: selectedPColor }}
+              className="rectangle-6" />
             <p className="text-wrapper">{cardName}...ending in 0942</p>
             <div className="rectangle-7" />
             <div className="rectangle-8" />
@@ -81,23 +83,28 @@ export const SecondPage = () => {
             </div>
             <div className="rectangle-9" />
             <p className="PAYMENT-STATUS-no">
-              <span className="span">
-                PAYMENT STATUS <br />
-                <br />
-                No payment is needed at this tim
+              <span
+                style={{ color: selectedSColor }}
+                className="span">
+                PAYMENT STATUS
               </span>
-              <span className="text-wrapper-2">e </span>
+              <br />
+              <span className="text-wrapper-2">No payment is needed at this time</span>
             </p>
             <img className="rectangle-10" alt="Rectangle" src="/img/rectangle-26.svg" />
             <div className="text-wrapper-3">See all</div>
-            <div className="text-wrapper-4">TRANSACTION ACTIVITY</div>
+            <div
+              style={{ color: selectedSColor }}
+              className="text-wrapper-4">TRANSACTION ACTIVITY</div>
             <img
               className="img-2"
               alt="Img"
               src={imageData}
             />
             <p className="CURRENT-BALANCE">
-              <span className="span">
+              <span
+                style={{ color: selectedSColor }}
+                className="span">
                 CURRENT BALANCE <br />
                 <br />
               </span>
@@ -136,7 +143,9 @@ export const SecondPage = () => {
             <div className="rectangle-15" />
             <div className="group">
               <div className="overlap-group-2">
-                <div className="text-wrapper-11">RECENT ACTIVITY</div>
+                <div
+                  style={{ color: selectedSColor }}
+                  className="text-wrapper-11">RECENT ACTIVITY</div>
                 <div className="text-wrapper-12">View all transactions</div>
                 <p className="p">You currently do not have any recent transactions</p>
               </div>
@@ -153,16 +162,21 @@ export const SecondPage = () => {
               <img className="line-2" alt="Line" src="/img/line-4.png" />
               <img className="line-3" alt="Line" src="/img/line-3.png" />
               <img className="line-4" alt="Line" src="/img/line-4.png" />
-              <div className="text-wrapper-18">CURRENT BALANCE</div>
+              <div
+                style={{ color: selectedSColor }}
+                className="text-wrapper-18">CURRENT BALANCE</div>
               <div className="text-wrapper-19">View balance details</div>
             </div>
             <div className="payment-status-card">
               <div className="overlap-5">
-                <div className="overlap-group-3">
+                <div style={{ background: selectedPColor }}
+                  className="overlap-group-3">
                   <div className="text-wrapper-20">Payment Activity</div>
                 </div>
                 <div className="text-wrapper-21">Statement balance</div>
-                <div className="text-wrapper-22">PAYMENT STATUS</div>
+                <div
+                  style={{ color: selectedSColor }}
+                  className="text-wrapper-22">PAYMENT STATUS</div>
                 <p className="text-wrapper-23">No payment is needed at this time</p>
                 <img className="line-5" alt="Line" src="/img/line-8.png" />
                 <img className="line-6" alt="Line" src="/img/line-9.png" />
@@ -231,7 +245,8 @@ export const SecondPage = () => {
               <img className="vector-8" alt="Vector" src="/img/vector-1.svg" />
             </div>
           </div>
-          <div className="overlap-12">
+          <div style={{ background: selectedPColor }}
+            className="overlap-12">
             <p className="text-wrapper-35">Last Login 08/18 at 2:25 PM ET via Web</p>
             <div className="group-3">
               <div className="navbar">
@@ -255,7 +270,7 @@ export const SecondPage = () => {
 
         <div className="group-4">
         <div className="primary-color" />
-          <button style={{backgroundColor: selectedPColor}} onClick={() => {
+          <button style={{ backgroundColor: selectedPColor }} onClick={() => {
               setShowPPicker(true)
             }}  className="primary-color" />
             {showPPicker && (
@@ -270,10 +285,10 @@ export const SecondPage = () => {
           <div className="primary-color-option">Primary color</div>
           <p className="secondary-color-2">
             <span className="text-wrapper-43">#</span>
-            <span className="text-wrapper-44">FFFFFF</span>
+            <span className="text-wrapper-44">{selectedSColor.slice(1)}</span>
           </p>
           <img className="primary-color-2" alt="Primary color" src="/img/primarycolorplaceholder.svg" />
-          <button style={{backgroundColor: selectedSColor}} onClick={() => {
+          <button style={{ backgroundColor: selectedSColor }} onClick={() => {
               setShowSPicker(true)
             }}  className="secondary-color-3" />
             {showSPicker && (
@@ -287,7 +302,7 @@ export const SecondPage = () => {
           <img className="secondary-color-4" alt="Secondary color" src="/img/secondarycolorplaceholder.svg" />
           <p className="primary-color-value">
             <span className="text-wrapper-43">#</span>
-            <span className="text-wrapper-44">FFFFFF</span>
+            <span className="text-wrapper-44">{selectedPColor.slice(1)}</span>
           </p>
         </div>
         <div className="card-name-input">
