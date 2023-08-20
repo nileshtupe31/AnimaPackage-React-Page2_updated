@@ -123,12 +123,12 @@
 }
 
 .second-page .img {
-  height: 41px;
-  left: 184px;
-  object-fit: cover;
+  height: 60px;
+  left: 170px;
+  object-fit: contain;
   position: absolute;
-  top: 106px;
-  width: 61px;
+  top: 90px;
+  width: 100px;
 }
 
 .second-page .rectangle {
@@ -1067,12 +1067,12 @@
 }
 
 .second-page .header-logo {
-  height: 88px;
+  height: 108px;
   left: 582px;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 10px;
-  width: 80px;
+  width: 120px;
 }
 
 .second-page .GP-HP-flex-card {

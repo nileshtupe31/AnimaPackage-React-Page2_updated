@@ -206,7 +206,8 @@ export const BasePage = () => {
           <div className="text-wrapper-8">Step3</div>
           <div className="next-button">
           <Link to="/nextpage" state={{
-            imageData:imageData
+            imageData:imageData,
+            logoImage:logoImage
           }}>
             <div className="overlap-6">
               <div className="text-wrapper-9">Next</div>

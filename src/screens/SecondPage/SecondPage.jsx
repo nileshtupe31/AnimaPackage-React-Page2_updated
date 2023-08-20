@@ -6,7 +6,7 @@ import { ChromePicker } from 'react-color';
 
 export const SecondPage = () => {
   const location = useLocation()
-  const { imageData } = location.state
+  const { imageData, logoImage } = location.state
   const [cardName, setCardName] = useState("Gap Rewards Mastercard");
 
   const handleCardNameChange = (e) => {
@@ -60,7 +60,7 @@ export const SecondPage = () => {
           <img
             className="img"
             alt="Img"
-            src="/img/da8e653794fe3dfbb87e3ba5b7183df5e5f8c822422fcfb72170788447aec4b8-1.png"
+            src={logoImage}
           />
           <div className="rectangle menu-bar" />
           <div className="overlap">
@@ -211,7 +211,9 @@ export const SecondPage = () => {
               </div>
               <div className="text-wrapper-30">cookie Byte</div>
             </div>
-            <img className="header-logo" alt="Header logo" src="/img/header-logo-1.png" />
+            <img className="header-logo" alt="Header logo"             
+              src={logoImage}
+              style={{maxWidth:'50px'}} />
             <img
               className="GP-HP-flex-card"
               alt="Gp HP flex card"
