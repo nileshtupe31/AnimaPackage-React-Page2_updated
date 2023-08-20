@@ -213,7 +213,7 @@ export const SecondPage = () => {
             </div>
             <img className="header-logo" alt="Header logo"             
               src={logoImage}
-              style={{maxWidth:'50px'}} />
+            />
             <img
               className="GP-HP-flex-card"
               alt="Gp HP flex card"

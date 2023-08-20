@@ -1067,12 +1067,12 @@
 }
 
 .second-page .header-logo {
-  height: 108px;
-  left: 582px;
+  height: 100;
+  left: 482px;
   object-fit: contain;
   position: absolute;
   top: 10px;
-  width: 120px;
+  width: 200px;
 }
 
 .second-page .GP-HP-flex-card {
