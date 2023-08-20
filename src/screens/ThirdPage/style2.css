@@ -2657,3 +2657,44 @@ left: 73px;
   top: 0;
   width: 722px;
 }
+
+.third-page .overlap-group-wrapper-2 {
+  height: 80px;
+  left: 490px;
+  position: absolute;
+  top: 0;
+  width: 253px;
+}
+
+.third-page .overlap-3-pb {
+  height: 80px;
+  position: relative;
+  width: 251px;
+}
+
+.third-page .ellipse-3 {
+  background-color: #00aeef;
+  border: 6px solid;
+  border-color: #00aeef;
+  border-radius: 38.29px/40px;
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 77px;
+}
+
+.third-page .text-wrapper-2-pb {
+  color: #ffffff;
+  font-family: var(--circle-text-body-font-family);
+  font-size: var(--circle-text-body-font-size);
+  font-style: var(--circle-text-body-font-style);
+  font-weight: var(--circle-text-body-font-weight);
+  left: 13px;
+  letter-spacing: var(--circle-text-body-letter-spacing);
+  line-height: var(--circle-text-body-line-height);
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  width: 49px;
+}
