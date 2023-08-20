@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./style1.css";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'
+import { ChromePicker } from 'react-color';
 
 export const SecondPage = () => {
   const location = useLocation()
@@ -15,6 +16,27 @@ export const SecondPage = () => {
   useEffect(() => {
     console.log(imageData);
   },[])
+
+  const [showPPicker, setShowPPicker] = useState(false);
+  const [selectedPColor, setSelectedPColor] = useState('#00aeef');
+  const [selectedSColor, setSelectedSColor] = useState('#d0d8de');
+  const [showSPicker, setShowSPicker] = useState(false);
+
+  const handlePColorChange = (color) => {
+    setSelectedPColor(color.hex);
+  };
+
+  const closePColorPicker = () => {
+    setShowPPicker(false);
+  };
+
+  const handleSColorChange = (color) => {
+    setSelectedSColor(color.hex);
+  };
+
+  const closeSColorPicker = () => {
+    setShowSPicker(false);
+  };
   return (
     <div className="second-page">
       <div className="div">
@@ -229,8 +251,21 @@ export const SecondPage = () => {
           </div>
           <div className="text-wrapper-42">Website Preview:</div>
         </div>
+
+
         <div className="group-4">
-          <div className="primary-color" />
+        <div className="primary-color" />
+          <button style={{backgroundColor: selectedPColor}} onClick={() => {
+              setShowPPicker(true)
+            }}  className="primary-color" />
+            {showPPicker && (
+              <div style={{ position: 'absolute', zIndex: 2 }}>
+                <ChromePicker color={selectedPColor} onChange={handlePColorChange} />
+                <div>
+                  <button onClick={closePColorPicker}>Close Color Picker</button>
+                </div>
+              </div>
+            )}
           <div className="secondary-color">Secondary color</div>
           <div className="primary-color-option">Primary color</div>
           <p className="secondary-color-2">
@@ -238,7 +273,17 @@ export const SecondPage = () => {
             <span className="text-wrapper-44">FFFFFF</span>
           </p>
           <img className="primary-color-2" alt="Primary color" src="/img/primarycolorplaceholder.svg" />
-          <div className="secondary-color-3" />
+          <button style={{backgroundColor: selectedSColor}} onClick={() => {
+              setShowSPicker(true)
+            }}  className="secondary-color-3" />
+            {showSPicker && (
+              <div style={{ position: 'absolute', zIndex: 2 }}>
+                <ChromePicker color={selectedSColor} onChange={handleSColorChange} />
+                <div>
+                  <button onClick={closeSColorPicker}>Close Color Picker</button>
+                </div>
+              </div>
+            )}
           <img className="secondary-color-4" alt="Secondary color" src="/img/secondarycolorplaceholder.svg" />
           <p className="primary-color-value">
             <span className="text-wrapper-43">#</span>
