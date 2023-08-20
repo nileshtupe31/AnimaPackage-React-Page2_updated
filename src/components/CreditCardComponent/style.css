@@ -1,3 +1,22 @@
+.img-3 {
+  height: 109px;
+  left: 12px;
+  position: absolute;
+  top: 10px;
+  width: 156px;
+  z-index: 101;
+}
+
+
+.img-2 {
+  height: 62px;
+  left: 293px;
+  position: absolute;
+  top: 92px;
+  width: 78px;
+  z-index: 100;
+}
+
 .overlap-5 {
     height: 276px;
     left: 73px;

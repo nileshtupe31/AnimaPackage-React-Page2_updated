@@ -1,9 +1,26 @@
-import React from "react";
+import React, { createRef, useEffect } from "react";
+import { useScreenshot } from 'use-react-screenshot'
+
 import "./style.css";
 
-export const CreditCard = ({ isSolid, isPlastic, logoImage, selectedColor, gradientStyle, divClassName, backgroundImage }) => {
+export const CreditCard = ({ isSolid, isPlastic, logoImage, selectedColor, gradientStyle, divClassName, backgroundImage, capturedImage }) => {
+
+  const imageDivRef = createRef(null)
+  const [image, takeScreenshot] = useScreenshot()
+  const getImage = () => takeScreenshot(imageDivRef.current)
+
+  useEffect(() => {
+    async function fetchImage() {
+      let img = await takeScreenshot(imageDivRef.current)
+      console.log(image);
+      capturedImage(img)     
+    }
+
+    fetchImage()
+  })
+
   return (
-    <div className={`${divClassName}`}>
+    <div ref={imageDivRef} className={`${divClassName}`}>
       <div className="overlap-5">
         <div className="group">
           <div

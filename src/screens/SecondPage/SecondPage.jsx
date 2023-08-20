@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style1.css";
 import { Link } from "react-router-dom";
+import { useLocation } from 'react-router-dom'
 
 export const SecondPage = () => {
+  const location = useLocation()
+  const { imageData } = location.state
+
+  useEffect(() => {
+    console.log(imageData);
+  },[])
   return (
     <div className="second-page">
       <div className="div">
@@ -60,7 +67,7 @@ export const SecondPage = () => {
             <img
               className="img-2"
               alt="Img"
-              src="/img/da-8e-65379-4fe-3dfbb-8-7e-3ba-5b-718-3df-5e-5f-8c-82242-2fcfb-7217078844-7aec-4b-8.png"
+              src={imageData}
             />
             <p className="CURRENT-BALANCE">
               <span className="span">
@@ -167,7 +174,7 @@ export const SecondPage = () => {
             <img
               className="GP-HP-flex-card"
               alt="Gp HP flex card"
-              src="/img/gp-hp-flex-card-enthusiast-mc-400x270-1.png"
+              src={imageData}
             />
           </div>
           <div className="group-wrapper">

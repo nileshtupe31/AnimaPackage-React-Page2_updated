@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React, { createRef, useEffect, useState } from "react";
 import { useRef } from "react";
 import { ChromePicker } from 'react-color';import { StyleRadio } from "../../components/StyleRadio";
+import { useScreenshot } from 'use-react-screenshot'
+
 import "./style.css";
 import { Link } from "react-router-dom";
 import { CreditCard } from "../../components/CreditCardComponent/CreditCard";
+
 
 export const BasePage = () => {
   const [showPicker, setShowPicker] = useState(false);
   const [isSolid, setIsSolid] = useState(false);
   const [isPlastic, setIsPlastic] = useState(true);
+  const [imageData, setImageData] = useState("")
 
   const [selectedColor, setSelectedColor] = useState('#00aeef');
   const [secondaryColor, setSecondaryColor] = useState('#d0d8de');
@@ -191,13 +195,18 @@ export const BasePage = () => {
               gradientStyle={gradientStyle}
               divClassName="div-wrapper"
               backgroundImage={cardBackgroundImage}
+              capturedImage={(image) => {
+                setImageData(image)
+              }}
             />
           </div>
           <div className="text-wrapper-6">Step1</div>
           <div className="text-wrapper-7">Step2</div>
           <div className="text-wrapper-8">Step3</div>
           <div className="next-button">
-          <Link to="/nextpage">
+          <Link to="/nextpage" state={{
+            imageData:imageData
+          }}>
             <div className="overlap-6">
               <div className="text-wrapper-9">Next</div>
             </div>
