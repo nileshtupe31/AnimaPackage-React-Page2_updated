@@ -13,23 +13,22 @@
   height: 1500px;
   overflow: hidden;
   position: relative;
-  width: 1391px;
+  width: 100%;
 }
 
 .second-page .footer {
   background-color: transparent;
   height: 72px;
-  left: -49px;
   position: absolute;
   top: 1428px;
-  width: 1442px;
+  width: 100%;
 }
 
 .second-page .overlap-group {
   background-color: #00395d;
   height: 72px;
   position: relative;
-  width: 1440px;
+  width: 100%;
 }
 
 .second-page .element-barclays-bank {
