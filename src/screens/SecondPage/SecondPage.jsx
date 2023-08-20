@@ -209,7 +209,7 @@ export const SecondPage = () => {
                 <div className="text-wrapper-29">Good afternoon,</div>
                 <div className="gap-good-rewards">{cardName}&nbsp;&nbsp;..0412</div>
               </div>
-              <div className="text-wrapper-30">cookie Byte</div>
+              <div className="text-wrapper-30">Cookie byte</div>
             </div>
             <img className="header-logo" alt="Header logo"             
               src={logoImage}
