@@ -2293,6 +2293,25 @@ left: 73px;
   width: 73px;
 }
 
+.third-page .log-out-s3 {
+  height: 53px;
+  left: 314px;
+  object-fit: cover;
+  position: absolute;
+  top: 88px;
+  width: 73px;
+}
+
+.third-page .log-out-s4 {
+  height: 53px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 750;
+  width: 73px;
+  z-index: 1;
+}
+
 .third-page .text-wrapper-13-s2 {
   color: #000000;
   font-family: "Tenor Sans", Helvetica;

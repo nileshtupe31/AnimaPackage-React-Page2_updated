@@ -1,9 +1,9 @@
 // Screen1.jsx
 import React from 'react';
 
-const Screen2 = () => {
+const Screen2 = ({onNavLinkClick}) => {
   return (
-    <div className="iphone-s2">
+    <div  className="iphone-s2">
           <div className="iphone-x-or-newer-s2">
             <div className="right-side-s2">
               <img className="battery-s2" alt="Battery" src="/img/battery-7.png" />
@@ -25,7 +25,7 @@ const Screen2 = () => {
                 <div className="black-dot-s2" />
               </div>
               <div className="text-wrapper-8-s2">Suggested for you</div>
-              <div className="card-detailsrec-s2">
+              <a onClick={() => {onNavLinkClick(2)}} className="card-detailsrec-s2">
                 <div className="overlap-group-3-s2">
                   <div className="text-wrapper-9-s2">$0.00</div>
                   <div className="element-2-s2">
@@ -44,7 +44,7 @@ const Screen2 = () => {
                   alt="Img"
                   src="/img/da8e653794fe3dfbb87e3ba5b7183df5e5f8c822422fcfb72170788447aec4b8-1.png"
                 />
-              </div>
+              </a>
               <div className="manage-alerts-s2">
                 <div className="overlap-4-s2">
                   <div className="text-wrapper-12-s2">Manage Alerts</div>
@@ -56,7 +56,9 @@ const Screen2 = () => {
           </div>
           <div className="nav-bar-2-s2">
             <img className="logo-on-nav-s2" alt="Logo on nav" src="/img/logoonnav.png" />
-            <img className="log-out-s2" alt="Log out" src="/img/logout.png" />
+            <a onClick={() => {onNavLinkClick(0)}}>
+              <img className="log-out-s2" alt="Log out" src="/img/logout.png" />
+            </a>
             <div className="text-wrapper-13-s2">Your accounts</div>
           </div>
         </div>

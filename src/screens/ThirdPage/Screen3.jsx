@@ -1,7 +1,7 @@
 // Screen1.jsx
 import React from 'react';
 
-const Screen3 = ({ logoImage, selectedPColor, cardName, selectedSColor, imageData }) => {
+const Screen3 = ({ logoImage, selectedPColor, cardName, selectedSColor, imageData, onNavLinkClick }) => {
   return (
     <div className="iphone">
           <div className="iphone-x-or-newer">
@@ -17,6 +17,12 @@ const Screen3 = ({ logoImage, selectedPColor, cardName, selectedSColor, imageDat
             alt="Img"
             src={logoImage}
           />
+           <a onClick={() => {onNavLinkClick(0)}}>
+              <img className="log-out-s3" alt="Log out" src="/img/logout.png" />
+            </a>
+            <a onClick={() => {onNavLinkClick(1)}}>
+              <img className="log-out-s4" />
+            </a>
           <div className="rectangle menu-bar" />
           <div className="overlap">
             <img className="rectangle-2" alt="Rectangle" src="/img/rectangle-32.png" />

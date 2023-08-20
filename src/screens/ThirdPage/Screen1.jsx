@@ -1,7 +1,7 @@
 // Screen1.jsx
 import React from 'react';
 
-const Screen1 = () => {
+const Screen1 = ({onNavLinkClick}) => {
   return (
         <div className="iphone-s1">
           <img className="barclays-logo-s1" alt="Barclays logo" src="/img/barclayslogo.png" />
@@ -16,7 +16,9 @@ const Screen1 = () => {
           </div>
           <div className="button-s1">
             <div className="next-wrapper-s1">
-              <div className="next-s1">LOG IN</div>
+            <a onClick={() => {
+              onNavLinkClick(1)
+            }}  className="next-s1">LOG IN</a>
             </div>
           </div>
           <div className="iphone-x-or-newer-s1">
@@ -39,3 +41,8 @@ const Screen1 = () => {
 
 export default Screen1;
 
+<button style={{borderColor:'red'}} onClick={() => {
+  onNavLinkClick(1)
+}} className="next-wrapper-s1">
+  <div className="next-s1">LOG IN</div>
+</button>

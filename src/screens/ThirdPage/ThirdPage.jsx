@@ -13,11 +13,17 @@ export const ThirdPage = () => {
   const [selectedPColor, setSelectedPColor] = useState('#00aeef');
   const [cardName, setCardName] = useState("Gap Rewards Mastercard");
   const [selectedSColor, setSelectedSColor] = useState('#d0d8de');
+  const [iPhoneScreen, setIPhoneScreen] = useState(0)
 
 
   useEffect(() => {
     console.log(imageData);
   },[])
+
+  const navigateToIphoneScreen = (index) => {
+    setIPhoneScreen(index)
+  }
+
   return (
     <div className="third-page">
       <div className="div">
@@ -29,22 +35,17 @@ export const ThirdPage = () => {
         <div className="nav-bar">
           <img className="logo" alt="Logo" src="/img/logo.png" />
         </div>
-        {/* <Screen3
+        {iPhoneScreen == 0 && <Screen1 onNavLinkClick={navigateToIphoneScreen} />}
+        {iPhoneScreen == 1 && <Screen2 onNavLinkClick={navigateToIphoneScreen} />}
+        {iPhoneScreen == 2 && <Screen3
           logoImage={logoImage}
           selectedPColor={selectedPColor}
           cardName={cardName}
           selectedSColor={selectedSColor}
           imageData={imageData}
-        /> */}
-        {/* <Screen1/> */}
-        <Screen2/>
-        <DesktopScreen2
-          logoImage={logoImage}
-          selectedPColor={selectedPColor}
-          cardName={cardName}
-          selectedSColor={selectedSColor}
-          imageData={imageData}
-        />
+          onNavLinkClick={navigateToIphoneScreen}
+        />}
+        <DesktopScreen2 />
         {/* <DesktopScreen1/> */}
         <Link to="/nextpage" state={{
             imageData:imageData,
