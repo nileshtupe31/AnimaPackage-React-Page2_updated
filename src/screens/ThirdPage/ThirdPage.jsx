@@ -45,7 +45,13 @@ export const ThirdPage = () => {
           imageData={imageData}
           onNavLinkClick={navigateToIphoneScreen}
         />}
-        <DesktopScreen2 />
+        <DesktopScreen2 
+          logoImage={logoImage}
+          selectedPColor={selectedPColor}
+          cardName={cardName}
+          selectedSColor={selectedSColor}
+          imageData={imageData}
+        />
         {/* <DesktopScreen1/> */}
         <Link to="/nextpage" state={{
             imageData:imageData,

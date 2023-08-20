@@ -68,7 +68,7 @@
   left: 96px;
   overflow: hidden;
   position: absolute;
-  top: 441px;
+  top: 300px;
   width: 424px;
 }
 
@@ -485,8 +485,9 @@
   height: 868px;
   left: 619px;
   position: absolute;
-  top: 382px;
+  top: 250px;
   width: 738px;
+  
 }
 
 .third-page .overlap-3 {
@@ -1760,7 +1761,7 @@ left: 73px;
   left: 98px;
   overflow: hidden;
   position: absolute;
-  top: 379px;
+  top: 300px;
   width: 424px;
 }
 
@@ -1968,7 +1969,7 @@ left: 73px;
   left: 122px;
   overflow: hidden;
   position: absolute;
-  top: 383px;
+  top: 300px;
   width: 424px;
 }
 
@@ -2332,7 +2333,7 @@ left: 73px;
   overflow: hidden;
   overflow-y: scroll;
   position: absolute;
-  top: 391px;
+  top: 300px;
   width: 721px;
 }
 
