@@ -201,9 +201,9 @@ export const BasePage = () => {
               }}
             />
           </div>
-          <div className="text-wrapper-6">Step1</div>
-          <div className="text-wrapper-7">Step2</div>
-          <div className="text-wrapper-8">Step3</div>
+          <div className="text-wrapper-6">Logo & Card Art</div>
+          <div className="text-wrapper-7">Theme</div>
+          <div className="text-wrapper-8">Visualizer</div>
           <div className="next-button">
           <Link to="/nextpage" state={{
             imageData:imageData,

@@ -929,6 +929,16 @@
   top: 1304px;
 }
 
+.third-page .overlap-22 {
+  background-color: #00aeef;
+  border-radius: 30px;
+  height: 49px;
+  width: 150px;
+  left: 1222px;
+  position: absolute;
+  top: 1304px;
+}
+
 .third-page .overlap-7 {
   -webkit-backdrop-filter: blur(4px) brightness(100%);
   backdrop-filter: blur(4px) brightness(100%);
@@ -1603,7 +1613,7 @@
   font-family: "Inria Sans", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 0;
+  left: -40;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -1616,7 +1626,7 @@
   font-family: "Inria Sans", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 237px;
+  left: 230px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
@@ -1629,7 +1639,7 @@
   font-family: "Inria Sans", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 490px;
+  left: 470px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;

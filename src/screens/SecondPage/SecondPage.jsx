@@ -325,9 +325,9 @@ export const SecondPage = () => {
 
         <div className="step">
           <div className="progresss-bars">
-            <div className="text-wrapper-47">Step1</div>
-            <div className="text-wrapper-48">Step2</div>
-            <div className="text-wrapper-49">Step3</div>
+            <div className="text-wrapper-47">Logo & Card Art</div>
+            <div className="text-wrapper-48">Theme</div>
+            <div className="text-wrapper-49">Visualizer</div>
           </div>
           <div className="overlap-16">
             <div className="circle">

@@ -81,12 +81,16 @@ export const ThirdPage = () => {
               <div className="text-wrapper-9">Previous</div>
             </div>
         </Link>
-
+        <Link to="/endPage">
+          <div className="overlap-22">
+            <div className="text-wrapper-9">Confirm</div>
+          </div>
+        </Link>
         <div className="step">
           <div className="progresss-bars">
-            <div className="text-wrapper-47">Step1</div>
-            <div className="text-wrapper-48">Step2</div>
-            <div className="text-wrapper-49">Step3</div>
+            <div className="text-wrapper-47">Logo & Card Art</div>
+            <div className="text-wrapper-48">Theme</div>
+            <div className="text-wrapper-49">Visualizer</div>
           </div>
           <div className="overlap-16">
               <div className="overlap-group-wrapper-2">

@@ -4,6 +4,7 @@ import { BasePage } from "./BasePage/BasePage";
 import { SecondPage } from "./SecondPage";
 import { ThirdPage } from "./ThirdPage";
 import { LandingPage } from "./LandingPage";
+import { EndPage } from "./EndPage";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path="/firstPage" element={<BasePage />} />
         <Route path="/nextpage" element={<SecondPage />} />
         <Route path="/lastpage" element={<ThirdPage />} /> 
+        <Route path="/endPage" element={<EndPage />} /> 
+
       </Routes>
     </Router>
   );
