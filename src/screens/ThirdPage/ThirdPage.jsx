@@ -12,8 +12,13 @@ export const ThirdPage = () => {
   const { imageData, logoImage, selectedPColor, selectedSColor,cardName } = location.state
   const [iPhoneScreen, setIPhoneScreen] = useState(0)
   const [desktopScreen, setDesktopScreen] = useState(0)
-
-
+  const [loggedIn, setLoggedIn] = useState(false);
+  const handleLogin = () => {
+    setLoggedIn(true);
+  };
+  const handleLogout = () => {
+    setLoggedIn(false);
+  };
 
   useEffect(() => {
     console.log(imageData);
@@ -62,17 +67,18 @@ export const ThirdPage = () => {
           imageData={imageData}
           onNavLinkClick={navigateToIphoneScreen}
         />}
-        {desktopScreen == 0 && <DesktopScreen1 
-          onNavLinkClick={navigateToDesktop}/>}
-        {desktopScreen == 1 && <DesktopScreen2 
-          logoImage={logoImage}
-          selectedPColor={selectedPColor}
-          cardName={cardName}
-          selectedSColor={selectedSColor}
-          imageData={imageData}
-          onNavLinkClick={navigateToDesktop}
-        />}
-
+        {loggedIn ? (
+          <DesktopScreen2 
+            onLogOut={handleLogout}
+            logoImage={logoImage}
+            selectedPColor={selectedPColor}
+            cardName={cardName}
+            selectedSColor={selectedSColor}
+            imageData={imageData}
+          />
+         ) : (
+          <DesktopScreen1 onLogin={handleLogin} />
+         )}
         <Link to="/nextpage" state={{
             imageData:imageData,
             logoImage:logoImage

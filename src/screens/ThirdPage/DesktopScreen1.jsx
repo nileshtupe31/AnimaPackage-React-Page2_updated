@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DesktopScreen1 = ({onNavLinkClick}) => {
+const DesktopScreen1 = ({ onLogin }) => {
   return (
     <div className="desktop-login-ds1">
           <div className="overlap-5-ds1">
@@ -24,10 +24,10 @@ const DesktopScreen1 = ({onNavLinkClick}) => {
                   <div className="text-wrapper-17-ds1">Remember Username ?</div>
                 </div>
                 <div className="log-in-ds1">
-                <a onClick={() => {onNavLinkClick(1)}} className="overlap-8-ds1">
+                  <div className="overlap-8-ds1" onClick={onLogin}>
                     <img className="lock-ds1" alt="Lock" src="/img/lock.svg" />
                     <div className="text-wrapper-18-ds1">Log In</div>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -45,9 +45,7 @@ const DesktopScreen1 = ({onNavLinkClick}) => {
                   <span className="text-wrapper-21-ds1">&nbsp;</span>
                   <span className="span-ds1">in</span>
                 </p>
-                <a onClick={() => {onNavLinkClick(1)}}>
-                  <img className="login-ds1" alt="Login" src="/img/login.svg" />
-                </a>
+                <img className="login-ds1" alt="Login" src="/img/login.svg" />
               </div>
               <div className="tab-bar-2-ds1" />
             </div>
@@ -57,4 +55,3 @@ const DesktopScreen1 = ({onNavLinkClick}) => {
 };
 
 export default DesktopScreen1;
-

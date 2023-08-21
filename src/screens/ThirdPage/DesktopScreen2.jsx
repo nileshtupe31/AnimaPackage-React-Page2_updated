@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DesktopScreen2 = ({ logoImage, selectedPColor, cardName, selectedSColor, imageData }) => {
+const DesktopScreen2 = ({ logoImage, selectedPColor, cardName, selectedSColor, imageData, onLogOut }) => {
   return (
     <div className="website-preview">
           <div className="overlap-3">
@@ -126,7 +126,7 @@ const DesktopScreen2 = ({ logoImage, selectedPColor, cardName, selectedSColor, i
               <div className="overlap-13">
                 <div className="text-wrapper-40">0</div>
               </div>
-              <div className="overlap-14">
+              <div className="overlap-14" onClick={onLogOut}>
                 <div className="text-wrapper-41">Log out</div>
               </div>
             </div>
